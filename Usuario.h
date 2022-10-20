@@ -4,7 +4,7 @@ using namespace std;
 
 class Usuario{
     public: 
-    Usuario::Usuario(string _Username, string _Pasword): Username{_Username} ,Pasword{_Pasword}
+    Usuario (string _Username, string _Pasword): Username{_Username} ,Pasword{_Pasword} {}
     //set
     void setname(string _Username){
         Username = _Username;
@@ -16,9 +16,10 @@ class Usuario{
     string getname()const{
         return Username;
     }
-    string getname()const{
+    string getpasword()const{
         return Pasword;
     }
+
     private:
     string Username;
     string Pasword;
