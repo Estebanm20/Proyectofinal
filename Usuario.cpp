@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    Usuario Usuario1 {"Samuel","1234567"};
+    Usuario Usuario1 {"Montalvan","Samuel","Administración de narcotrafico","1234567"};
     cout << Usuario1.getname() << endl;
 
     return 0;
