@@ -31,7 +31,12 @@ class Usuario{
     string getApelli() const {
         return Carrera;
     }
-
+    void Display(){
+        cout<<"\nNombre: "<<Username
+        <<"\nContraseña: "<<Pasword
+        <<"\nApellido: "<<Apellido
+        <<"\nEscuela Profesional"<<Carrera;
+    }
     private:
     string Username;
     string Pasword;

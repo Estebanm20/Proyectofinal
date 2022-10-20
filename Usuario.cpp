@@ -23,6 +23,9 @@ void elegir(int n){
         break;
     }
 }
+void imprimirUsuario(int n, Usuario arrUsuario[]){
+    arrUsuario[n].Display();
+}
 
 
 void menu(){
@@ -42,8 +45,15 @@ void menu(){
 }
 
 int main(){
-    Usuario Usuario1 {"Montalvan","Samuel","Panadero nuclear","1234567"};
+    Usuario Usuario1 {"Samuel","alianza123","Iman","Ingeneria Civil"};
+    Usuario Usuario2 {"Hestevan","78esteban10","Medina","Contabilidad"};
+    Usuario Usuario3 {"Qluinzman","celular123","Huillca","Arte"};
+    Usuario Usuario4 {"Paolin","password","Mostajo","Psicologia"};
     cout << Usuario1.getname() << endl;
+
+    Usuario arrUsuarios [4] = {Usuario1, Usuario2, Usuario3, Usuario4};
+    /*imprimirUsuario(2, arrUsuarios);*/
+
     menu();
     return 0;
 }
