@@ -1,0 +1,6 @@
+
+Esteban Adela_Cano  2200 4 3 CCOMP
+Samuel Adela_Cano  2200 5 2 ARQUI
+Klinsman Adela_Cano 2200 5 2 Dere
+Ariana Adela_Cano 2200 4 5 CCOMP
+Paolo Adela_Cano 2200 3 5 CCOMP
